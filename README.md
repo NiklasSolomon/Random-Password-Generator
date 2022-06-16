@@ -12,6 +12,6 @@ This project will showcase the students knowledge of basic javascript and concep
 ## Result:
 When Generate Password is clicked, the webpage now gives the user prompts to determine desired password length, whether or not they want numbers, special characters, lower case, and upper case letters. It gives an error message if the length isn't within the range of 8-128 and returns to the starting screen. It gives an error message if at least one character choice isn't made. Once choices are made, the password is generated correctly according to the users choices.
 
-
+![Screeshot of webpage](./Assets/screenshot.png)
 
 [Link to live webpage](https://niklassolomon.github.io/Random-Password-Generator/)
