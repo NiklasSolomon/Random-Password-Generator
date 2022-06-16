@@ -17,7 +17,6 @@ var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"
 var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
 // What sorts of actions/tasks does my code need to complete?
-var generatePassword = "";
 var length;
 var okUpper;
 var okLower;
@@ -79,11 +78,10 @@ if ( !okNumbers && !okSpecial && !okLower && !okUpper) {
   // DECLARE a new empty string to store the password characters.
   var storedCharacters = [];
 
-  for( i = 0; i < length; i++ )
+  for( i = 0; i <= length; i++ )
   // Randomly select characters
   // Adding that character to a building password string
-  storedCharacters = characterArray[Math.floor(Math.random() *characterArray.length)];
-  console.log(characterArray);
+  storedCharacters += characterArray[Math.floor(Math.random() *characterArray.length)];
     // Return the completed string
     return storedCharacters;
 }
